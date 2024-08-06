@@ -1,0 +1,68 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body {
+    background-color: #111;
+    color: hsl(0, 0%, 100%);
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .profile-card {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .profile-info {
+    margin-bottom: 20px;
+  }
+
+  .profile-info h2 {
+    margin-bottom: 5px;
+  }
+
+  .profile-info p {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+  }
+  .profile-card .loc {
+    color: hsl(75, 94%, 57%);
+  }
+
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .social-button {
+    background-color: #333;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .social-button:active {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-weight: 400;
+  }
